@@ -1,0 +1,23 @@
+{
+  "name": "jiraqs",
+  "description": "Quickly find what you need in jira.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "history",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": false
+  },
+  "icons": {
+    "16": "jiralogo.png",
+    "32": "jiralogo.png",
+    "48": "jiralogo.png",
+    "128": "jiralogo.png"
+  }
+}
